@@ -1,0 +1,19 @@
+{
+  "name": "homie-sonoff-1606",
+  "device_id": "homie-sonoff-1606",
+  "wifi": {
+    "ssid": "iot.ltechnet.ch",
+    "password": "PASSWORD"
+  },
+  "mqtt": {
+    "host": "mqtt.ltechnet.net",
+    "port": 1883,
+    "base_topic": "devices/",
+    "auth": true,
+    "username": "homie",
+    "password": "PASSWORD"
+  },
+  "ota": {
+    "enabled": false
+  }
+}
